@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Five</title>
+</head>
+<body onload="dataHora()">
+    <section id="home">
+        <div class="circle"></div>
+        <header>
+            <img src="img/thefivelogo.png" class="logo" alt="">
+            <nav class="navbar">
+                <ul>
+                    <a href="#sobre"><li>Informações</li>
+                    <a href=""><li>Cardápio</li></a>
+                    <a href=""><li>Promoções</li></a>
+                    <a href="login.html"><li id="login">Login</li></a>
+                    <a href="cadastro.html"><li id="cadastro">Cadastro</li></a>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="text">
+                <h2>O MELHOR BURGUER BAR<br><span>THE FIVE</span></h2>
+                <p>Aqui você encontra as melhores pizzas, hamburgers e porções da região. Venha provar essas delícias!</p>
+                <a href="#">Veja Eles</a>
+            </div>
+        </div>
+        <div class="boximg">
+            <img src="img/COMIDAS.png" alt="comidas">
+        </div>
+    </section>
+    <section id="sobre">
+        <div id="quem-somos">
+            <h1>SOBRE NÓS</h1>
+        </div>
+        <div class="cards_container">
+            <div class="card">
+                <img src="img/pin.png" alt="">
+                <h1>LOCALIZAÇÃO</h1>
+                <p>Lindóia do Sul - SC<br>Rua 07 de Setembro<br>CENTRO<br>Comercial Alberton - 2º Andar</p>
+                <input type="button" value="VEJA NO MAPS">
+            </div>
+            <div class="card">
+                <img src="img/phone.png" alt="">
+                <h1>CONTATOS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus voluptates est tempore minus dolor veniam saepe a nam, mollitia ut velit magnam excepturi aut sit eum fuga eaque nihil.</p>
+                <input type="button" value="ENTRE EM CONTATO">
+            </div>
+            <div class="card">
+                <img src="img/calendar.png" alt="">
+                <h1>ATENDIMENTO</h1>
+                <div id="atendimento">
+                    <p>Segunda-Feira: <span id="fechado">FECHADO</span></p>
+                    <p>Terça-Feira: <span id="fechado">FECHADO</span></p>
+                    <p>Quarta-Feira: <span id="aberto">17:00 - 23:00</span></p>
+                    <p>Quinta-Feira: <span id="aberto">17:00 - 23:00</span></p>
+                    <p>Sexta-Feira: <span id="aberto">17:00 - 23:00</span></p>
+                    <p>Sábado: <span id="aberto">17:00 - 23:00</span></p>
+                    <p>Domingo: <span id="fechado">FECHADO</span></p>
+                </div>
+                <div>
+                    <h1 id="agora">Agora: <span></span></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="cardapio">
+        <div class="container-slider">
+            <button id="arrow-left"><img src="img/arrow.png" alt=""></button>
+            <div class="container-images">
+                <img src="img/pizza_slider.jpg" alt="" class="slider">
+                <img src="img/hamburguer_slider.jpeg.jpg" alt="" class="slider">
+                <img src="img/bebidas_slider.jpg" alt="" class="slider">
+                <img src="img/porcoes_slider.jpg" alt="" class="slider">
+            </div>
+            <button id="arrow-right"><img src="img/arrow.png" alt=""></button>
+        </div>
+    </section> -->
+    <script src="home.js"></script>
+</body>
+</html>

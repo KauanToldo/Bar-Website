@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Helvetica Now Text';
+    src: url('HelveticaNowText-Bold.eot');
+    src: local('Helvetica Now Text  Bold'), local('HelveticaNowText-Bold'),
+        url('HelveticaNowText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowText-Bold.woff2') format('woff2'),
+        url('HelveticaNowText-Bold.woff') format('woff'),
+        url('HelveticaNowText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c50411;
+    clip-path: circle(50% at bottom right);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    max-width: 240px;
+}
+
+.navbar ul {
+    position: relative;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 80px;
+    font-weight: 300;
+    font-size: 16px;
+    max-width: 150px;
+}
+
+.navbar li:hover {
+    transform: scale(1.1);
+    transition: all .2s;
+}
+
+#login, #cadastro {
+    background-color: #c50411;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+}
+
+#login:hover, #cadastro:hover {
+    color: #c50411;
+    background-color: white;
+    transition: all .5s ease-out;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .text {
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.container .text h2 {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container .text h2 span {
+    font-size: 5em;
+    color: #c50411;
+}
+
+.container .text p {
+    color: #fff;
+}
+
+.container .text a {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background-color: #c50411;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .text a:hover {
+    transform: translateY(-10px);
+}
+
+.boximg {
+    position: absolute;
+    right: 0;
+    bottom: -110px;
+    margin-right: -130px;
+}
+
+.boximg img {
+    width: 700px;
+}
+
+#sobre {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+#quem-somos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 95%;
+    height: 30vh;
+    background-image: url(https://vinicolaaraucaria.com.br/wp-content/uploads/2020/06/interna_restaurante-1-1400x700.jpg);
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#quem-somos h1 {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px black;
+}
+
+.cards_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(203, 200, 200, 0.389);
+    width: 25%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:first-child {
+    margin-left: 10%;
+}
+
+.card:last-child {
+    margin-right: 10%;
+}
+
+.card img {
+    width: 45%;
+    height: 24%;
+    margin-top: 10px;
+}
+
+.card h1 {
+    font-size: 1.5em;
+    color: #c50411;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.card input {
+    border: 2px solid #c50411;
+    background-color: #c50411;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.card input:hover {
+    background-color: rgba(255, 255, 255, 0.389);
+    border: 2px solid #c50411;
+    color: #c50411;
+    transition: all .5s;
+}
+
+.card:first-child p{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.card:first-child input {
+    margin-top: 74px;
+}
+
+#atendimento {
+    margin-top: 40px;
+}
+
+.card:last-child p {
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+#aberto {
+    color: rgb(0, 255, 38);
+    font-weight: bold;
+}
+
+#fechado {
+    color: #c50411;
+    font-weight: 800;
+}
+
+#agora {
+    background-color: #c50411;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+
+#agora:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+    cursor: default;
+}

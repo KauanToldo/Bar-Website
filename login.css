@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Helvetica Now Text';
+    src: url('HelveticaNowText-Bold.eot');
+    src: local('Helvetica Now Text  Bold'), local('HelveticaNowText-Bold'),
+        url('HelveticaNowText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowText-Bold.woff2') format('woff2'),
+        url('HelveticaNowText-Bold.woff') format('woff'),
+        url('HelveticaNowText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+body {
+    background-color: #121212;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#container {
+    width: 100vw;
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: rgb(250, 250, 250);
+    width: 250px;
+    height: 350px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #c50411;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input {
+    border: 2px solid #c50411;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    width: 250px;
+    height: 40px;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    height: 60px;
+    width: 280px;
+    font-size: 1.5em;
+    background-color: #c50411;
+    color: white;
+    margin-top: 30px;
+}
+
+#login:hover {
+    background-color: white;
+    border: 2px solid #c50411;
+    color: #c50411;
+    transition: all .5s ease-out;
+}
+
+#email {
+    margin-bottom: 10px;
+    font-size: .8em;
+    padding-left: 5px;
+}
+
+#senha {
+    font-size: .8em;
+    padding-left: 5px;
+}
+
+img {
+    width: 250px;
+    height: 110px;
+    background-color: #121212;
+}
+
+#infos p:last-child {
+    font-size: .8em;
+    margin-top: 10px;
+}
+
+a {
+    color: #c50411;
+}
+
+a:hover {
+    color: black;
+    transition: .3s;
+}
